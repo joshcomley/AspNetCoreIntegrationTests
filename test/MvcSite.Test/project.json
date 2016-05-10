@@ -1,10 +1,7 @@
 ﻿{
   "version": "1.0.0-*",
   "description": "MvcSite.Test Class Library",
-  "authors": [ "MatthewRidgway" ],
-  "tags": [ "" ],
-  "projectUrl": "",
-  "licenseUrl": "",
+  "authors": [ "Josh Comley" ],
   "frameworks": {
     "dnx451": {
       "frameworkAssemblies": {

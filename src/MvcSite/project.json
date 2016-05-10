@@ -1,6 +1,6 @@
 ﻿{
   "version": "1.0.0-*",
-  "compilationOptions": {
+  "buildOptions": {
     "preserveCompilationContext": true,
     "emitEntryPoint": true
   },
@@ -28,14 +28,5 @@
         "System.Threading.Tasks": "4.0.0.0"
       }
     }
-  },
-
-  "exclude": [
-    "wwwroot",
-    "node_modules"
-  ],
-  "publishExclude": [
-    "**.user",
-    "**.vspscc"
-  ]
+  }
 }

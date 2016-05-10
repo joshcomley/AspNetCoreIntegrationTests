@@ -2,10 +2,8 @@
 using System.Net.Http;
 using Xunit;
 using Microsoft.Extensions.PlatformAbstractions;
-using Microsoft.Extensions.DependencyInjection;
 using System.IO;
 using System.Net;
-using System.Reflection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 
