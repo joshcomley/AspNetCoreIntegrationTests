@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "preserveCompilationContext": true,
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.AspNetCore.IISPlatformHandler": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.TestHost": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-*"
+  },
+
+  "commands": {
+		"web": "Microsoft.AspNet.Server.Kestrel",
+		"test": "xunit.runner.dnx"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.10.0",
+        "System.ComponentModel": "4.0.0.0",
+        "System.Collections": "4.0.0.0",
+        "System.Xml.ReaderWriter": "4.0.0.0",
+        "System.IO": "4.0.0.0",
+        "System.Threading.Tasks": "4.0.0.0"
+      }
+    }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}

@@ -1,0 +1,43 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "MvcSite.Test Class Library",
+  "authors": [ "MatthewRidgway" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.10.0",
+        "System.ComponentModel": "4.0.0.0",
+        "System.Collections": "4.0.0.0",
+        "System.Xml.ReaderWriter": "4.0.0.0",
+        "System.IO": "4.0.0.0",
+        "System.Threading.Tasks": "4.0.0.0"
+      }
+    }
+  },
+  "testRunner": "xunit",
+  "dependencies": {
+    "MvcSite": "1.0.0-*",
+    "xunit": "2.1.0",
+    "dotnet-test-xunit": "1.0.0-*",
+    "Microsoft.AspNetCore.TestHost": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-*",
+
+    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-*",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-*",
+    "Microsoft.EntityFrameworkCore.Relational": "1.0.0-rc2-*",
+    "OpenIddict": "1.0.0-alpha2-*",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Mvc.WebApiCompatShim": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Mvc.Dnx": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.HttpOverrides": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Diagnostics": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.IISPlatformHandler": "1.0.0-rc2-*",
+    "Microsoft.Extensions.Logging.Debug": "1.0.0-rc2-*",
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect": "2.0.0-rc2-*"
+  }
+}
